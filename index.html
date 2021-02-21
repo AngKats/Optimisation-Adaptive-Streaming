@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <title>Optimisation-Adaptive-Streaming</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+</head>
+
+        <!-- you should probably put some google analytics / meta bits and pieces
+	    here : PRH 
+    <meta property="og:title" content="Paul Hill's Website"> etc.
+      <script async src="https://www.googletagmanager.com/gtag/js?id=??????????"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '??????????');
+  </script>
+    -->
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1>Content-gnostic Optimisation for Adaptive Video Streaming</h1>
+                                <div class="container-sm">
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-sm-auto">
+                                            <p><a href='http://angkats.github.io'>Angeliki Katsenou</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                        <div class="col-sm-auto">
+                                            <p><a href='http://www.bristol.ac.uk/engineering/people/david-r-bull/index.html'>David R. Bull</a></p>
+                                            <p>University of Bristol</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="bvilogo.svg" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="VIL_logo.svg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>About</h2>
+                <p> One of the challenges faced by many video providers is the heterogeneity of network specifications, user requirements, and content compression performance. 
+                    The universal solution of a fixed bitrate ladder is inadequate in ensuring a high quality of user experience without re-buffering or introducing annoying 
+                    compression artifacts. However, a content-tailored solution, based on extensively encoding across all resolutions and over a wide quality range is highly 
+                    expensive in terms of computational, financial, and energy costs. Inspired by this, we propose approaches that exploit machine learning to predict a 
+                    content-optimized bitrate ladder. The methods extract spatio-temporal features from the uncompressed content, train machine-learning models to predict 
+                    the Pareto front parameters, and, based on that, build the ladder within a defined bitrate range. The methods have the benefit of significantly reducing 
+                    the number of encodes required per sequence.  </p>
+                <p> The collection of papers below provides all related research results. 
+                </p>
+		<dl>
+			<dt>Funders</dt>
+			<dd>Leverhulme Trust,Netflix</dd>
+			<dt>Collaborators</dt>
+			<dd>Joel Sole</dd>
+		</dl>
+            
+            <hr />
+            <div class="container-md">
+                <h2 id="poster">Visuals</h2>
+                <p><a href="LadderMethod.png"><img src="LadderMethod.png" alt="Examples of Video Texture" width=900 class="center" /></a></p>
+            </div>
+            <hr />
+            <div class="container-md">
+                <h2 id="downloads">Downloads</h2>
+                <ul>
+                    <li>Papers 
+                        <ul>
+                        <li>A. V. Katsenou, J. Sole, and D. R. Bull, "Efficient Bitrate Ladder Construction for Content-Optimized Adaptive Video Streaming". <a href="https://arxiv.org/abs/2102.04550">[arXiv]</a> </li>
+                        <li>A. V. Katsenou, J. Sole, and D. R. Bull, "Content-gnostic Bitrate Ladder Prediction for Adaptive Streaming," 2019 Picture Coding Symposium. <a href="https://ieeexplore.ieee.org/document/8954529">[Paper]</a> </li>
+                        </ul>
+                    </li>
+                    <li>Dataset <a href=""></a></li>
+                </ul>
+            </div>
+           
+
+        </div>
+    </div>
+</body>
+
+</html>
